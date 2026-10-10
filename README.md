@@ -1,2 +1,2 @@
 # Custom-Cosmetics
-An attempt aim to bring the best cosmetics plugin.
+A modern custom cosmetic plugin to reward player with exquisite dresses to stand out. 
