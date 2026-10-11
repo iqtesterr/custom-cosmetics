@@ -1,5 +1,6 @@
 package net.chiiblock.customcosmetics;
 
+import net.chiiblock.customcosmetics.listener.ExampleListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class BukkitPlatform extends JavaPlugin implements Platform {
@@ -19,6 +20,8 @@ public class BukkitPlatform extends JavaPlugin implements Platform {
     @Override
     public void onEnable() {
         this.plugin.enable();
+        this.getServer().getPluginManager().registerEvents(new ExampleListener(), this);
+
     }
 
     @Override
