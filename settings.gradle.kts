@@ -1,4 +1,3 @@
 rootProject.name = "custom-cosmetics"
-include(
-    ":core",
-)
+include("api")
+include("bukkit")
